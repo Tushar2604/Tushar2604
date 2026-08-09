@@ -1,0 +1,37 @@
+<svg viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .label { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+      .pct   { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="600" height="460" fill="#0d1117" rx="12" />
+
+  <!-- axes -->
+  <line x1="90"  y1="230" x2="510" y2="230" stroke="#30363d" stroke-width="1.5" />
+  <line x1="300" y1="60"  x2="300" y2="400" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- data polyline: Commits(left,42%) - Code review(top,0%) - Issues(right,16%) - PRs(bottom,42%) -->
+  <!-- axis half-length = 210(h)/170(v); scale point distance from center by pct/max(42) -->
+  <polyline points="90,230 300,230 396,230 300,315 90,230"
+            fill="rgba(63,185,80,0.15)" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" />
+
+  <circle cx="90"  cy="230" r="6" fill="#3fb950" stroke="#0d1117" stroke-width="2" />
+  <circle cx="300" cy="230" r="6" fill="#3fb950" stroke="#0d1117" stroke-width="2" />
+  <circle cx="396" cy="230" r="6" fill="#3fb950" stroke="#0d1117" stroke-width="2" />
+  <circle cx="300" cy="315" r="6" fill="#3fb950" stroke="#0d1117" stroke-width="2" />
+
+  <!-- labels -->
+  <text x="300" y="40" text-anchor="middle" class="pct" font-size="20">0%</text>
+  <text x="300" y="64" text-anchor="middle" class="label" font-size="16">Code review</text>
+
+  <text x="40" y="222" text-anchor="middle" class="pct" font-size="20">42%</text>
+  <text x="40" y="246" text-anchor="middle" class="label" font-size="16">Commits</text>
+
+  <text x="560" y="222" text-anchor="middle" class="pct" font-size="20">16%</text>
+  <text x="560" y="246" text-anchor="middle" class="label" font-size="16">Issues</text>
+
+  <text x="300" y="420" text-anchor="middle" class="pct" font-size="20">42%</text>
+  <text x="300" y="444" text-anchor="middle" class="label" font-size="16">Pull requests</text>
+</svg>
