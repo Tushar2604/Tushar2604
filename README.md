@@ -109,7 +109,7 @@ A load balancer built to reason about traffic distribution as a system design pr
 - Contributing to an open-source evaluation harness for VLA / physical-AI models
 - Define a benchmark once, run it against any policy, on any robot or simulator — decoupling evaluation logic from the underlying robot/sim implementation
 
-<details>
+<details open>
 <summary><b>Activity in inspect-robots</b> — 8 merged PRs · 3 issues filed · 8 commits</summary>
 
 <p align="center">
