@@ -73,6 +73,7 @@ I'm a software engineer focused on **backend and distributed systems** — the k
 **AI / ML**
 
 ![RAG](https://img.shields.io/badge/RAG-8B5CF6?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=for-the-badge)
 ![Eval Harness](https://img.shields.io/badge/Eval%20Harness-8B5CF6?style=for-the-badge)
 
 ---
